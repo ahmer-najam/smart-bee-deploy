@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./w3.css";
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(/assets/fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url(/assets/fonts/Poppins-Regular.ttf) format("truetype");
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(/assets/fonts/Poppins-SemiBold.ttf) format("truetype");
+    font-weight: 400;
+  }
+
+  * {
+    margin: 0;
+    font-family: Poppins-SemiBold, "Helvetica Neue", sans-serif;
+  }
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
